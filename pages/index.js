@@ -8,6 +8,10 @@ import Footer from '../components/Footer';
 import Text from '../components/Text';
 import MediaQuery from 'react-responsive';
 
+import Image from 'next/image'
+
+
+
 export default function Home({ data }) {
   const { siteHeaderData, homepageData } = data;
 
@@ -26,7 +30,9 @@ export default function Home({ data }) {
 
       <div className={siteBanner}>
         <MediaQuery minWidth={900}>
-          <div className={homepageImage}><img src={homepageData.image.url} /></div>
+          <div className={homepageImage}>
+            <Image src={homepageData.image.url} layout='responsive'></Image>
+          </div>
         </MediaQuery>
         <div className={homepageText}><h1 className={siteQuote}>
           <Text content={homepageData.subtitle} />

@@ -87,16 +87,16 @@
 
     .homepageImage {
       box-sizing: border-box;
-
       width: 50%;
-      margin: 0;
+      height: 100%;
+      object-fit: cover !important;
+      overflow: hidden !important;
 
-      img {
-        margin: 0;
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-      }
+      // img {
+      //   width: 50%;
+      //   height: auto;
+      //   object-fit: cover !important;
+      // }
     }
   }
 }

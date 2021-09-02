@@ -20,10 +20,13 @@
   padding: 0;
   position: fixed;
   top: 0;
-  left: 0;
   z-index: 5;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+}
+
+.headerWrapper .headerLogo {
+  width: 100%;
 }
 
 .headerWrapper img {
