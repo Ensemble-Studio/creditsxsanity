@@ -43,6 +43,15 @@
           align-items: flex-start;
 }
 
+@media screen and (max-width: 900px) {
+  .siteWrapper .siteManifesto {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
 .siteWrapper .siteManifesto .manTitle {
   font-family: "Bigilla";
   font-size: 40px;
