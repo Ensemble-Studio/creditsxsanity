@@ -6,6 +6,7 @@ import { siteWrapper, homepageImage, homepageText, siteBanner, siteQuote, siteMa
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 import Text from '../components/Text';
+import MediaQuery from 'react-responsive';
 
 export default function Home({ data }) {
   const { siteHeaderData, homepageData } = data;
@@ -24,7 +25,8 @@ export default function Home({ data }) {
 
 
       <div className={siteBanner}>
-        <div className={homepageImage}><img src={homepageData.image.url} /></div>
+        <MediaQuery minWidth={900}>        <div className={homepageImage}><img src={homepageData.image.url} /></div>
+        </MediaQuery>
         <div className={homepageText}><h1 className={siteQuote}>
           <Text content={homepageData.subtitle} />
         </h1>
