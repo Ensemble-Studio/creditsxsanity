@@ -1,0 +1,32 @@
+.headerWrapper {
+  width: 100%;
+  height: 50px;
+  background-color: #fff;
+  color: black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0;
+  padding: 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 5;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.headerWrapper img {
+  width: 100px;
+}
+/*# sourceMappingURL=Header.module.css.map */

@@ -1,0 +1,25 @@
+.main {
+  margin: auto;
+  width: 100vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  max-width: 100%;
+  color: white;
+  margin-bottom: 50px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: red;
+  border-radius: 0px 0px 5px 5px;
+}
+
+.main div {
+  margin: 25px;
+  cursor: pointer;
+}
+
+.main div:hover {
+  color: #a8a8a8;
+}
+/*# sourceMappingURL=Toolbar.module.css.map */

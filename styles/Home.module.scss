@@ -1,0 +1,91 @@
+@font-face {
+  font-family: "Bigilla";
+  src: url("../public/fonts/Bigilla.otf"); // pattern: /directoryName/file.extension
+}
+
+.siteWrapper {
+  // position: relative;
+  width: 100%;
+  height: 100%;
+  margin-top: 50px;
+  background-color: #fbf9f6;
+  color: black;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+
+  .siteManifesto {
+    margin: 5%;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+
+    .manTitle {
+      font-family: "Bigilla";
+      font-size: 40px;
+      font-weight: normal;
+      line-height: 0px;
+      text-transform: uppercase;
+      padding: 3%;
+      letter-spacing: 0.1em;
+    }
+
+    .manContent {
+      // border: 1px solid red;
+      font-family: "Inter";
+      font-size: 30px;
+      line-height: 1.5;
+    }
+  }
+
+  .siteBanner {
+    width: 100%;
+    height: 100vh;
+    background-color: #ff5500;
+    color: white;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    .homepageText {
+      margin: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 50%;
+      margin: 0 auto;
+      .siteQuote {
+        margin: 0;
+        font-size: 15vh;
+        color: white;
+        font-weight: normal;
+        font-family: "Bigilla";
+        text-transform: uppercase;
+        text-align: center;
+      }
+    }
+
+    .homepageImage {
+      box-sizing: border-box;
+
+      width: 50%;
+      margin: 0;
+
+      img {
+        margin: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+    }
+  }
+}
