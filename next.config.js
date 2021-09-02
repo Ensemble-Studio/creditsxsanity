@@ -3,6 +3,7 @@ module.exports = {
   images: {
     loader: 'default'
   },
+
   exportPathMap: async function (defaultPathMap) {
 
     const path = await client
