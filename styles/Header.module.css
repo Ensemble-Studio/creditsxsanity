@@ -25,7 +25,11 @@
           box-sizing: border-box;
 }
 
-.headerWrapper img {
+.headerWrapper .headerLogo {
+  width: 100px;
+}
+
+.headerWrapper .headerLogo img {
   width: 100px;
 }
 /*# sourceMappingURL=Header.module.css.map */

@@ -24,7 +24,7 @@ export default function Home({ data }) {
   return (
     <div className={siteWrapper}>
 
-      {/* <Header /> */}
+      <Header />
 
 
 
