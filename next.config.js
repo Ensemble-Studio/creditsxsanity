@@ -1,5 +1,8 @@
 module.exports = {
   reactStrictMode: true,
+  images: {
+    loader: 'default'
+  },
   exportPathMap: async function (defaultPathMap) {
 
     const path = await client

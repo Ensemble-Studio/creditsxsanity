@@ -7,7 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "export": "npm run build && next export"
+    "export": "next run build && next export"
   },
   "dependencies": {
     "@sanity/client": "^2.16.0",
