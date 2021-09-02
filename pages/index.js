@@ -25,7 +25,8 @@ export default function Home({ data }) {
 
 
       <div className={siteBanner}>
-        <MediaQuery minWidth={900}>        <div className={homepageImage}><img src={homepageData.image.url} /></div>
+        <MediaQuery minWidth={900}>
+          <div className={homepageImage}><img src={homepageData.image.url} /></div>
         </MediaQuery>
         <div className={homepageText}><h1 className={siteQuote}>
           <Text content={homepageData.subtitle} />
