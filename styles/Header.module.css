@@ -25,10 +25,6 @@
           box-sizing: border-box;
 }
 
-.headerWrapper .headerLogo {
-  width: 100%;
-}
-
 .headerWrapper img {
   width: 100px;
 }
