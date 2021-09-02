@@ -37,6 +37,11 @@
       text-transform: uppercase;
       padding: 3%;
       letter-spacing: 0.1em;
+
+      @media screen and (max-width: 900px) {
+        padding: 0%;
+        margin-bottom: 5%;
+      }
     }
 
     .manContent {

@@ -62,6 +62,13 @@
   letter-spacing: 0.1em;
 }
 
+@media screen and (max-width: 900px) {
+  .siteWrapper .siteManifesto .manTitle {
+    padding: 0%;
+    margin-bottom: 5%;
+  }
+}
+
 .siteWrapper .siteManifesto .manContent {
   font-family: "Inter";
   font-size: 30px;
