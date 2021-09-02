@@ -29,11 +29,11 @@ export default function Home({ data }) {
 
 
       <div className={siteBanner}>
-        <MediaQuery minWidth={900}>
+        {/* <MediaQuery minWidth={900}>
           <div className={homepageImage}>
             <Image src={homepageData.image.url} layout='responsive'></Image>
           </div>
-        </MediaQuery>
+        </MediaQuery> */}
         <div className={homepageText}><h1 className={siteQuote}>
           <Text content={homepageData.subtitle} />
         </h1>
